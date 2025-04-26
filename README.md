@@ -1,12 +1,25 @@
 
 
 # 🏠 Intelligent Real Estate Assistant
-
-![Real Estate Assistant Banner](https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)
-
 A powerful AI-driven assistant for helping users with **property maintenance** and **tenancy law** questions. It intelligently switches between two specialized agents for more accurate and context-aware support.
 
-**🔗 Live Demo:** [realestate-assistant.streamlit.app](https://realestate-assistant.streamlit.app)
+![Real Estate Assistant Banner](https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-1.2.1&auto=format&fit=crop&w=950&q=80)
+
+
+
+
+
+
+## **🔗 Live link:** [realestate-assistant.streamlit.app](https://propertypulse-ai-ekpxbxbsspygzkjedwpf6g.streamlit.app/)
+
+---
+
+## 🎥 Demo Video
+
+📽️ [Watch the Demo]
+
+https://github.com/user-attachments/assets/2b9f9c27-75b4-413d-9ea6-7b1090aeb4e5
+
 
 ---
 
@@ -111,9 +124,9 @@ docker run -p 8501:8501 real-estate-assistant
    ```
 
 3. **Set API Key:**
-   Create `.streamlit/secrets.toml`:
-   ```toml
-   GOOGLE_API_KEY = "your_gemini_api_key"
+   Create `.env`:
+   ```
+   GOOGLE_API_KEY = your_gemini_api_key
    ```
 
 4. **Run App:**
@@ -121,13 +134,10 @@ docker run -p 8501:8501 real-estate-assistant
    streamlit run app.py
    ```
 
+
+![Screenshot 2025-04-27 005204](https://github.com/user-attachments/assets/7f2ca86f-4e69-4610-80fa-df82f20d7dfa)
 ---
 
-## 🎥 Demo Video
-
-📽️ [Watch the Demo](https://drive.google.com/file/d/12345abcde/view)
-
----
 
 > ⚠️ *Disclaimer: This tool is for informational use only. Always consult professionals for legal or urgent maintenance issues.*
 
