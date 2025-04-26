@@ -1,0 +1,9 @@
+google-generativeai
+langchain
+langchain_core==0.3.56
+langchain_community
+langchain_google_genai
+Pillow==11.2.1
+streamlit
+duckduckgo-search
+
